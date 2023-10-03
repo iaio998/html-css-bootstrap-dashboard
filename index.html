@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Dashboard</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -66,7 +66,7 @@
                     <div id="dashboard" class="row">
                         <section id="dash-left" class="col-12 col-lg-8">
 
-                            <section id="next-class" class="card">
+                            <section id="next-class" class="card my-3">
                                 <div class="card-header">
                                     <h2>
                                         Prossime classi
@@ -74,36 +74,31 @@
                                 </div>
                                 <table class="table table-hover">
                                     <thead>
-                                        <tr>
-                                            <th scope="col">#</th>
-                                            <th scope="col">First</th>
-                                            <th scope="col">Last</th>
-                                            <th scope="col">Handle</th>
+                                        <tr class="text-center">
+                                            <th scope="col">Nome</th>
+                                            <th scope="col"></th>
+                                            <th scope="col"></th>
+                                            <th scope="col">Data inizio</th>
+                                            <th scope="col">ROI</th>
+                                            <th scope="col">Stato</th>
+                                            <th scope="col">Azioni</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">2</th>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">3</th>
-                                            <td colspan="2">Larry the Bird</td>
-                                            <td>@twitter</td>
+                                        <tr class="text-center">
+                                            <th scope="row">Classe 75</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td>15 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>Button A Button B</td>
                                         </tr>
                                     </tbody>
                                 </table>
 
                             </section>
-                            <section id="faq" class="card">
+                            <section id="faq" class="card my-3">
                                 <div class="card-header">
                                     <h2>FAQ</h2>
                                 </div>
@@ -113,7 +108,7 @@
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseOne" aria-expanded="true"
                                                 aria-controls="collapseOne">
-                                                Accordion Item #1
+                                                <strong>Come aggiungere un nuovo studente?</strong>
                                             </button>
                                         </h2>
                                         <div id="collapseOne" class="accordion-collapse collapse show"
@@ -134,7 +129,7 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                 aria-expanded="false" aria-controls="collapseTwo">
-                                                Accordion Item #2
+                                                <strong>Come posso accedere alle informazioni del mio account?</strong>
                                             </button>
                                         </h2>
                                         <div id="collapseTwo" class="accordion-collapse collapse"
@@ -156,7 +151,7 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                 aria-expanded="false" aria-controls="collapseThree">
-                                                Accordion Item #3
+                                                <strong>Come usare questa dashboard da mobile?</strong>
                                             </button>
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse"
@@ -180,13 +175,33 @@
 
                         <section id="dash-right" class="col-12 col-lg-4">
 
-                            <section id="todo" class="card">
+                            <section id="todo" class="card my-3">
                                 <div class="card-header">
                                     <h2>Todo</h2>
                                 </div>
+                                <ul class="list-group p-2">
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value=""
+                                            id="firstCheckbox">
+                                        <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value=""
+                                            id="secondCheckbox">
+                                        <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value=""
+                                            id="thirdCheckbox">
+                                        <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
+                                    </li>
+                                </ul>
                             </section>
-                            <section id="analytics" class="card">
-                                analisi
+                            <section id="analytics" class="card my-3 p-2">
+                                <div class="card p-2">
+                                    <img src="img/stats.jpeg" alt="">
+                                </div>
+
                             </section>
 
                         </section>

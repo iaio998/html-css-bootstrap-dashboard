@@ -7,7 +7,10 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
+img {
+  width: 100%;
+  display: block;
+}
 /* STRUCTURE */
 header {
   width: 100%;
@@ -34,3 +37,12 @@ main {
 /* SIDEBAR */
 
 /* NAVBAR */
+
+/* DASHBOARD */
+#next-class {
+  height: 70%;
+  max-height: 70%;
+}
+#next-class table tr :first-child {
+  text-align: left;
+}
