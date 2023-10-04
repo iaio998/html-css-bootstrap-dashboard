@@ -36,7 +36,16 @@ main {
 }
 
 /* ----- PAGE CONTENT----- */
-
+/* HEADER */
+#header div {
+  height: 70px;
+}
+#logo {
+  width: 150px;
+}
+#header input {
+  width: 100%;
+}
 /* SIDEBAR */
 #side-top ul li {
   /* width: 50px; */

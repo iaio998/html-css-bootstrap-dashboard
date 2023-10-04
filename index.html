@@ -28,7 +28,24 @@
 
         <!-- HEADER -->
         <header class="">
-
+            <div id="header" class="container-fluid">
+                <div class="row">
+                    <div id="logo" class="col-2 ">
+                        <img src="img/logo.svg" alt="Logo">
+                    </div>
+                    <div class="col-8 ">
+                        <input type="search">
+                    </div>
+                    <div class="col-2 ">
+                        <ul class="d-flex">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
         </header>
 
@@ -37,29 +54,29 @@
 
             <!-- SIDEBAR -->
             <div id="sidebar" class="text-white d-flex flex-column justify-content-between py-3 fs-5">
-                <section id="side-top" class="container-fluid d-flex justify-content-center align-items-center">
-                    <ul class="p-2">
-                        <li><i class="fa-solid fa-house"></i></li>
-                        <li><i class="fa-solid fa-chart-simple"></i></li>
-                        <li><i class="fa-solid fa-signal"></i></li>
 
-                    </ul>
+                <section id="side-top" class="container-fluid text-center">
                     <ul class="p-2">
-                        <li>Home</li>
-                        <li>Stats</li>
-                        <li>Signals</li>
-                    </ul>
-                </section>
-                <section id="side-bot" class="container-fluid d-flex justify-content-center align-items-center">
-                    <ul class="p-2">
-                        <li><i class="fa-solid fa-gear"></i></li>
-
-                    </ul>
-                    <ul class="p-2">
-                        <li>Admin</li>
+                        <li><i class="fa-solid fa-house p-1"></i>
+                            <span class="">Home</span>
+                        </li>
+                        <li><i class="fa-solid fa-chart-simple p-1"></i>
+                            <span class="">Stats</span>
+                        </li>
+                        <li><i class="fa-solid fa-signal p-1"></i>
+                            <span class="">Signals</span>
+                        </li>
                     </ul>
                 </section>
 
+                <section id="side-bot" class="container-fluid d-flex">
+                    <ul class="p-2">
+                        <li><i class="fa-solid fa-gear p-1"></i>
+                            <span>Admin</span>
+                        </li>
+
+                    </ul>
+                </section>
             </div>
 
             <!-- CONTENUTO PRINCIPALE -->
