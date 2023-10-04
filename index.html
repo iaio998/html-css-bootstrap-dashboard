@@ -29,21 +29,22 @@
         <!-- HEADER -->
         <header class="">
             <div id="header" class="container-fluid">
-                <div class="row">
-                    <div id="logo" class="col-2 ">
+                <div class="row align-items-center">
+                    <div id="logo" class="col-auto">
                         <img src="img/logo.svg" alt="Logo">
                     </div>
-                    <div class="col-8 ">
-                        <input type="search">
+                    <div class="col ">
+                        <input type="search" placeholder="Prova a cercare: Lezioni di Laravel">
+
                     </div>
-                    <div class="col-2 ">
-                        <ul class="d-flex">
-                            <li>1</li>
-                            <li>2</li>
-                            <li>3</li>
-                            <li>4</li>
-                        </ul>
-                    </div>
+
+                    <ul class="col-auto d-flex p-2 align-items-center m-0">
+                        <li><i class="fa-solid fa-bars"></i></li>
+                        <li><i class="fa-solid fa-circle-question"></i></li>
+                        <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                        <li><i class="fa-solid fa-bell"></i></li>
+                    </ul>
+
                 </div>
             </div>
 
@@ -86,13 +87,21 @@
                     <div class="container-fluid">
                         <div class="row">
                             <section class="col">
-                                1
+                                <h2 class="d-inline-block">Boolean</h2>
+                                <span>button</span>
+                                <ul class="d-flex p-0">
+                                    <li class="px-2">abc</li>
+                                    <span>>>></span>
+                                    <li class="px-2">abc</li>
+                                </ul>
                             </section>
                             <section class="col">
-                                2
+                                <h2 class="fs-6">Studenti online negli ultimi 30 minuti</h2>
+                                <h2>125</h2>
                             </section>
                             <section class="col">
-                                3
+                                <p class="d-inline-block">Nuovo studente</p>
+                                <span class="btn">+</span>
                             </section>
                         </div>
                     </div>

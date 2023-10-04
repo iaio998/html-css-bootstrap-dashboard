@@ -37,14 +37,24 @@ main {
 
 /* ----- PAGE CONTENT----- */
 /* HEADER */
-#header div {
+#header {
   height: 70px;
 }
+#header .row {
+  height: 100%;
+}
+#header li {
+  padding-left: 8px;
+  padding-right: 8px;
+}
 #logo {
-  width: 150px;
+  width: 200px;
 }
 #header input {
   width: 100%;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  color: rgb(0, 0, 0);
 }
 /* SIDEBAR */
 #side-top ul li {
